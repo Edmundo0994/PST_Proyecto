@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-width: 540px;
+}
+
+.logo {
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.navbar {
+  padding: .25rem .5rem;
+}
+
+.btnMargin {
+  margin: 0 5px;
+}
+
+.btnInput {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.heart {
+	font-size: 150px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
